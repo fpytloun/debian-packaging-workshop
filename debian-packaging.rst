@@ -624,7 +624,7 @@ Commit your patches, raise version and build package
        dch --distribution trusty -l tcp
        git add -u
        git commit -m "Fix requirements"
-       debian/1.2.0-0tcp2
+       git tag debian/1.2.0-0tcp2
        gbp buildpackage -uc -us
 
 ----
